@@ -84,6 +84,10 @@ This makes it both:
 A script you can run (python train.py)
 A module you can import from elsewhere to reuse functions.”
 
+“The model achieved high accuracy (95.6%), excellent F1 score (0.9660), and ROC AUC (0.9894).
+It correctly identifies most benign and malignant cases, though a few malignant cases were missed (recall=0.90).
+Overall, the model shows strong generalization and discrimination, suitable as a baseline for a medical diagnostic tool — with room for further recall improvement if clinical risk tolerance requires.”
+
 “Instead of treating this like a quick notebook demo, I built it as if it had to go into production:
 modular, explainable, reproducible, and tested.
 The choices (stratified split, cross-validation, distance weights, scaling, pruning correlated features) all came from thinking about what makes KNN work in real life — and what could hurt it if ignored.”

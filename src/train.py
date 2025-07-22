@@ -75,7 +75,6 @@ def plot_k_vs_accuracy(k_range, mean_scores, output_path='plots/k_vs_accuracy.pn
     print(f"📊 Plot saved to {output_path}")
 
 # Function to carry out the overall training and evaluation process from other functions, a function that calls other functions :)
-# Function to carry out the overall training and evaluation process from other functions, a function that calls other functions :)
 def main():
     print(" Loading data...")
     df = load_data()
